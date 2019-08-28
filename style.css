@@ -27,7 +27,7 @@ section {
   float: left;
   margin: 50px 5px 50px 50px;
   width: 435px;
-  height: 400px;
+  height: 250px;
 }
 
 aside {
@@ -37,13 +37,11 @@ aside {
   height: 400px;
 }
 
-footer{
-  
-}
-
 article {
   color: #ebebeb;
   background: #777;
+  height: 165px;
+  padding: 25px 10px;
 }
 
 body {
@@ -55,8 +53,16 @@ body {
   font-size: 18px;
 }
 
-h1, p {
+h5, p {
   color: #777;
   background: #ebebeb;
+  padding: 10px;
+  margin: 10px 10px 5px 10px;
+}
+p {
+
+}
+footer {
+  float: none;
 }
 
