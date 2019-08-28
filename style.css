@@ -15,6 +15,11 @@
   margin: 0 auto;
 }
 
+.footer {
+  float: none;
+  margin: 0 auto;
+}
+
 header, nav, section, aside, footer{
   background: #ebebeb;
   color: #777;
@@ -34,7 +39,7 @@ aside {
   float: right;
   margin: 50px 50px 50px 5px;
   width: 369px;
-  height: 400px;
+  height: 250px;
 }
 
 article {
