@@ -1,13 +1,14 @@
+/*this clears so that the footer will be down below*/
 .clearfix::after {
-  content: " ";
-  display: block;
+  content: "";
   clear: both;
+  display: block;
 }
 
 aside {
-  float: left;
+  float: right;
 }
 
-main {
+section {
   float: left;
 }
