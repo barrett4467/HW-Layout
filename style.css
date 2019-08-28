@@ -24,21 +24,22 @@ header, nav, section, aside, footer{
   background: #ebebeb;
   color: #777;
   text-align: center;
-  margin: 15px 50px 15px 50px;
+  margin: 15px;
   padding: 50px;
+}
+
+section, aside {
+  padding: 25px;
+  width: 495px;
+  height: 250px;
 }
 
 section {
   float: left;
-  margin: 50px 5px 50px 50px;
-  width: 435px;
-  height: 250px;
 }
-
 aside {
   float: right;
-  margin: 50px 50px 50px 5px;
-  width: 369px;
+  width: 405px;
   height: 250px;
 }
 
@@ -46,7 +47,8 @@ article {
   color: #ebebeb;
   background: #777;
   height: 165px;
-  padding: 25px 10px;
+  padding-top: 20px;
+  margin: 10px 0;
 }
 
 body {
